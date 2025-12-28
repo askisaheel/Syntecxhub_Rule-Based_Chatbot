@@ -1,3 +1,11 @@
-# Simple Rule-Based Chatbot
+# Syntecxhub — Simple Rule-Based NLP Chatbot
 
-A simple rule-based chatbot that replies using predefined patterns and rules. This project is a small, easy-to-read example of how to build a chatbot - the bot matches user input against rules (patterns) and returns the corresponding responses.
+A straightforward rule-based chatbot that uses lightweight Natural Language Processing (NLP) to answer user questions. The bot cleans and simplifies user input, recognizes different word forms, is aware of negation, and matches input against a list of predefined rules to return the best response.
+
+## Key features
+
+- Smart matching: recognizes different forms of the same word (e.g., "helping" vs "help").
+- Negation awareness: distinguishes between positive and negative questions (e.g., "I need help" vs "I don't need help").
+- Grammar friendly: tolerant of filler words and slight grammar variations.
+- Easy to extend: add or edit rules in a simple rules file (JSON / YAML / plain list).
+- Lightweight: designed to be simple to run locally without heavy ML models.
