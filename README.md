@@ -1,4 +1,4 @@
-# Syntecxhub - Simple Rule-Based NLP Chatbot
+# Simple Rule-Based NLP Chatbot
 
 A straightforward rule-based chatbot that uses lightweight Natural Language Processing (NLP) to answer user questions. The bot cleans and simplifies user input, recognizes different word forms, is aware of negation, and matches input against a list of predefined rules to return the best response.
 
