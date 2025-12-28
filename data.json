@@ -1,0 +1,36 @@
+{
+  "bot_config": {
+    "name": "ProBot",
+    "fallback_message": "I'm not sure about that specific question. Try asking 'What is the purpose of HTML?' or 'Why use Python?'"
+  },
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello"],
+      "responses": ["Hello! How can I help you with your code today?"]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["exit", "quit"],
+      "responses": ["See you! Happy coding."]
+    }
+  ],
+  "knowledge_base": [
+    {
+      "question": "what is the purpose of html",
+      "response": "HTML provides the essential structure of a website, using tags to organize text, images, and links into a readable format for browsers."
+    },
+    {
+      "question": "why should i use css",
+      "response": "CSS is used to control the visual presentation of a website, allowing you to create layouts, set colors, and ensure your design is responsive across different devices."
+    },
+    {
+      "question": "what makes python a good language",
+      "response": "Python is highly valued for its simple, readable syntax and its massive library support, making it ideal for everything from web automation to advanced AI."
+    },
+    {
+      "question": "how does javascript help developers",
+      "response": "JavaScript enables developers to build interactive websites, handling complex features like real-time content updates, interactive maps, and 2D/3D graphics."
+    }
+  ]
+}
